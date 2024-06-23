@@ -1,0 +1,30 @@
+* {
+    background-color: rgb(232, 255, 246);
+}
+
+#title {
+    font-family: sans-serif, serif;
+    text-align: center;
+    background-color: rgb(150, 247, 150);
+    color: salmon;
+}
+
+.rname {
+    font-family: sans-serif, serif;
+    background-color: rgba(124, 172, 172, 0.26);
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: auto;
+}
+
+a:link, a:visited, a:active{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
