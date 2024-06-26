@@ -1,50 +1,47 @@
 * {
-    background-color: rgb(232, 255, 246);
+    background-color: #dad7cd;
     box-sizing: border-box;
 }
 
 #title {
     font-family: sans-serif, serif;
     text-align: center;
-    background-color: rgb(150, 247, 150);
-    color: salmon;
+    background-color: #e07a5f;
+    color: #3d405b;
 }
 
-.rname {
-    font-family: sans-serif, serif;
-    background-color: rgba(124, 172, 172, 0.26);
+.recipes {
+    display: flex;
+    gap: 1rem;
     text-align: center;
+
+    font-family: sans-serif;
     font-size: 20px;
-    border: 1px solid red;
-    width: auto;
-    margin: 20px;
-    align-items: center;
+    font-weight: 500;
+
+    
 }
 
-.tandoori_chicken {
-    float: left;
-    margin-left: 50px;
-}
+.recipes > * {
+    flex: 1 1 0;
+    flex-direction: row;
+    justify-content: space-evenly;
 
-.mango_lassi {
-    float: left;
-    margin-left: 525px;
-    margin-right: 525px;
-}
+    padding: 20px;
 
-.banana_pudding {
-    float: left;
-    margin-right: 50px;
+    list-style: none;
+    background-color: #81b29a;
 }
 
 img {
-    height: 200px;
+    height: 300px;
     width: auto;
 }
 
 a:link, a:visited, a:active{
     color: black;
     text-decoration: none;
+    background-color: #81b29a;
 }
 
 a:hover{
